@@ -1,6 +1,19 @@
-@media screen and (min-width: 764px) {
+@media screen and (max-width: 764px) {
+    .main {
+        margin-top: 10vh;
+        padding: 0 0px;
+    }
     .item {
         display: flex;
         flex-direction: column
     }
-  }
+    .item>.img {
+        width: 100%;
+        margin-right: 0px;
+    }
+    .text {
+        width: 100%;
+        min-height: 150px;
+        margin-top: 20px;
+    }
+}

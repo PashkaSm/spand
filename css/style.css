@@ -90,7 +90,7 @@ a {
 
 .text {
     width: 75%;
-    height: 150px;
+    min-height: 150px;
     padding: 0 5px 0 20px;
     border: 3px solid var(--purpul-color);
     display: flex;
