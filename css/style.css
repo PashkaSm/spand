@@ -94,7 +94,8 @@ a {
     padding: 0 5px 0 20px;
     border: 3px solid var(--purpul-color);
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 .info{
     display: flex;
@@ -113,6 +114,7 @@ a {
 
 .text_ {
     font-size: 20px;
+    margin-top: 0px;
 }
 
 .seo {
