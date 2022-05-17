@@ -63,10 +63,16 @@ a {
 }
 
 .ru {
+    border-right: 3px solid #fff;
+    padding-right: 10px;
     padding-left: 9px;
     cursor: pointer;
 }
-
+.us {
+    padding-right: 10px;
+    padding-left: 9px;
+    cursor: pointer;
+}
 .main {
     margin-top: 10vh;
     padding: 0 40px;
